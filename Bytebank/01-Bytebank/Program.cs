@@ -10,6 +10,9 @@ namespace _01_Bytebank
     {
         static void Main(string[] args)
         {
+            new ContaCorrente();
+
+            Console.ReadLine();
         }
     }
 }
