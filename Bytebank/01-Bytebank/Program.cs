@@ -19,11 +19,11 @@ namespace _01_Bytebank
 
             Console.WriteLine(contaDaGabriela.titular);
             Console.WriteLine("Agência: " + contaDaGabriela.agencia);
-            Console.WriteLine("Número " + contaDaGabriela.numero);
-            Console.WriteLine("Saldo " + contaDaGabriela.saldo);
+            Console.WriteLine("Número: " + contaDaGabriela.numero);
+            Console.WriteLine("Saldo: " + contaDaGabriela.saldo);
 
             contaDaGabriela.saldo += 200;
-            Console.WriteLine("Saldo " + contaDaGabriela.saldo);
+            Console.WriteLine("Saldo: " + contaDaGabriela.saldo);
 
             Console.ReadLine();
         }
