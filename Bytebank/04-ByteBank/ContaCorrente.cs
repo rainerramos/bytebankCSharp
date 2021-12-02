@@ -20,7 +20,10 @@ public class ContaCorrente
         }
     }
     
-
+    public void Depositar(double valor) // void quer dizer que essa função não tem retorno, não devolve nada
+    {
+        this.saldo += valor;
+    }
 
 
 }

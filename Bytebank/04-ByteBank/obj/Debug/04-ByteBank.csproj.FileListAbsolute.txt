@@ -5,3 +5,4 @@ C:\CSharp\src\bytebankCSharp\Bytebank\04-ByteBank\obj\Debug\04-ByteBank.csproj.S
 C:\CSharp\src\bytebankCSharp\Bytebank\04-ByteBank\obj\Debug\04-ByteBank.csproj.CoreCompileInputs.cache
 C:\CSharp\src\bytebankCSharp\Bytebank\04-ByteBank\obj\Debug\04-ByteBank.exe
 C:\CSharp\src\bytebankCSharp\Bytebank\04-ByteBank\obj\Debug\04-ByteBank.pdb
+C:\CSharp\src\bytebankCSharp\Bytebank\04-ByteBank\obj\Debug\04-ByteBank.csproj.AssemblyReference.cache
