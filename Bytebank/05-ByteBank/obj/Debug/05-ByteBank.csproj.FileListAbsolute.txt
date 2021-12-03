@@ -1,0 +1,8 @@
+C:\CSharp\src\bytebankCSharp\Bytebank\05-ByteBank\bin\Debug\05-ByteBank.exe.config
+C:\CSharp\src\bytebankCSharp\Bytebank\05-ByteBank\bin\Debug\05-ByteBank.exe
+C:\CSharp\src\bytebankCSharp\Bytebank\05-ByteBank\bin\Debug\05-ByteBank.pdb
+C:\CSharp\src\bytebankCSharp\Bytebank\05-ByteBank\obj\Debug\05-ByteBank.csproj.AssemblyReference.cache
+C:\CSharp\src\bytebankCSharp\Bytebank\05-ByteBank\obj\Debug\05-ByteBank.csproj.SuggestedBindingRedirects.cache
+C:\CSharp\src\bytebankCSharp\Bytebank\05-ByteBank\obj\Debug\05-ByteBank.csproj.CoreCompileInputs.cache
+C:\CSharp\src\bytebankCSharp\Bytebank\05-ByteBank\obj\Debug\05-ByteBank.exe
+C:\CSharp\src\bytebankCSharp\Bytebank\05-ByteBank\obj\Debug\05-ByteBank.pdb
