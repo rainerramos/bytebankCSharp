@@ -43,7 +43,7 @@ namespace _04_ByteBank
             Console.WriteLine("Saldo do Bruno: " + contaDoBruno.saldo);
             Console.WriteLine("Saldo da Gabriela: " + contaDaGabriela.saldo);
 
-            
+
 
 
             Console.ReadLine();
