@@ -4,24 +4,8 @@ namespace _06_ByteBank
 {
     public class ContaCorrente
     {
-        private Cliente _titular;
-
-        public Cliente Titular
-        {
-            get
-            {
-                return _titular;
-            }
-            set
-            {
-                _titular = value;
-            }
-        }
-
-
-
-
-
+        public Cliente Titular { get; set; }
+        
 
         public int agencia;
         public int numero;
@@ -45,7 +29,7 @@ namespace _06_ByteBank
             }
         }
 
-      
+
         public bool Sacar(double valor)
         {
             if (_saldo < valor)
