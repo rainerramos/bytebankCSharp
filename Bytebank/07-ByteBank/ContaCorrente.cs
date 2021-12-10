@@ -6,6 +6,10 @@ namespace _07_ByteBank
     {
         public Cliente Titular { get; set; }
 
+        public static int TotalDeContasCriadas { get; private set; }
+
+
+
         private int _agencia;
         public int Agencia 
         {
@@ -43,6 +47,15 @@ namespace _07_ByteBank
 
                 _saldo = value;
             }
+        }
+
+
+        public ContaCorrente(int agencia, int numero) //CONSTRUTOR
+        {
+            Agencia = agencia;
+            Numero = numero;
+
+            TotalDeContasCriadas++;
         }
 
 
