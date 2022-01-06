@@ -4,10 +4,10 @@ namespace _07_ByteBank
 {
     public class ContaCorrente
     {
-        public Cliente Titular { get; set; }
-
+        public static double TaxaOperacao {get; private set;}
         public static int TotalDeContasCriadas { get; private set; }
-
+        public Cliente Titular { get; set; }
+                        
 
 
         private int _agencia;
@@ -54,6 +54,8 @@ namespace _07_ByteBank
         {
             Agencia = agencia;
             Numero = numero;
+
+            TaxaOperacao = 30 / TotalDeContasCriadas;
 
             TotalDeContasCriadas++;
         }
