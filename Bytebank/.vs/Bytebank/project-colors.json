@@ -35,6 +35,11 @@
       "ProjectGuid": "9d7c5d6c-8e3d-41c0-b561-88ee15d704fe",
       "DisplayName": "07-ByteBank",
       "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 7
