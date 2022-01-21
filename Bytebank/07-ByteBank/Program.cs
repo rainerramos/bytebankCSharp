@@ -11,14 +11,14 @@ namespace ByteBank
             {
                 Metodo();
             }
-            catch (DivideByZeroException erro)
+            catch (DivideByZeroException e)
             {
                 Console.WriteLine("Não é possível divisão por zero.");
             }
-            catch (Exception erro)
+            catch (Exception e)
             {
-                Console.WriteLine(erro.Message);
-                Console.WriteLine(erro.StackTrace);
+                Console.WriteLine(e.Message);
+                Console.WriteLine(e.StackTrace);
                 Console.WriteLine("Aconteceu um erro!");
             }
             
