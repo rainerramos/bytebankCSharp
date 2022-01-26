@@ -1,37 +1,20 @@
 ﻿
 
+using System;
+
 namespace _07_ByteBank
 {
     public class ContaCorrente
     {
-        public static double TaxaOperacao {get; private set;}
+        public static double TaxaOperacao { get; private set; }
         public static int TotalDeContasCriadas { get; private set; }
         public Cliente Titular { get; set; }
-                        
 
-
-        private int _agencia;
-        public int Agencia 
-        {
-            get
-            {
-                return _agencia;    
-            }
-            set
-            {
-                if(value <= 0)
-                {
-                    return;
-                }
-
-                _agencia = value;
-            }
-        }
-        public int Numero { get; set; }
-
+        public int Numero { get; }             
+        public int Agencia { get; }  
+           
+        
         private double _saldo = 100;
-
-
         public double Saldo
         {
             get //get vai sempre retornar
@@ -52,6 +35,16 @@ namespace _07_ByteBank
 
         public ContaCorrente(int agencia, int numero) //CONSTRUTOR
         {
+           if(agencia <= 0)
+            {
+                throw new ArgumentException("O argumento agencia deve ser maior que 0.");
+            }
+
+           if(numero <= 0)
+            {
+                throw new ArgumentException("O argumento numero deve ser maior que 0.");
+            }
+
             Agencia = agencia;
             Numero = numero;
 
